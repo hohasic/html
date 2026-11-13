@@ -11,7 +11,13 @@
         ID: <input type="text" name="memId" placeholder="Input ID"> <br>
         PW: <input type="password" name="memPw" placeholder="Input PW"> <br>
         MAIL: <input type="text" name="memMail" placeholder="Input MAIL"> <br>
-        PHONE: <input type="text" name="memPhone" placeholder="Input PHONE"> <br>
+        PHONE: 
+        <select name="memPhone01">
+            <option>010</option>
+            <option>016</option>
+            <option>017</option>
+        </select>
+        <input type="number" name="memPhone" placeholder="Input PHONE"> <br>
         HOBBY: 
             축구<input type="checkbox" name="memHobby" value="soccer">, &nbsp;&nbsp;
             야구<input type="checkbox" name="memHobby" value="baseball">, &nbsp;&nbsp;
@@ -35,6 +41,12 @@
             <br>
         기타:
             <textarea name="memEtc"></textarea>
+            <br>
+            <input type="color" value="#f00">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <input type="file">
             <br>
         <input type="submit" value="SIGNUP">
         <input type="reset" value="RESET">
